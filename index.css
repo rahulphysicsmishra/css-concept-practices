@@ -1,0 +1,32 @@
+/* flex-direction: column → stacks children vertically
+
+align-items: center → centers them horizontally
+
+justify-content: center → centers them vertically if there's space  */
+
+
+/*
+Feature	             display:block	        display: flex
+Layout direction	  Vertical only	        Row or column
+Children positioning  No special control	Precise control
+Alignment options	   Limited	            Full (justify, align)
+Default for	         <div>, <p>, etc.	    Must be set explicitly
+*/
+
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+}
+
+/* .profile-container {
+    display: block;
+    text-align: center;
+} */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal center for column layout */
+  justify-content: center; /* vertical center if the parent has height */
+  height: 100vh; /* optional, if you want full-screen vertical center */
+}
