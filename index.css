@@ -30,3 +30,8 @@ Default for	         <div>, <p>, etc.	    Must be set explicitly
   justify-content: center; /* vertical center if the parent has height */
   height: 100vh; /* optional, if you want full-screen vertical center */
 }
+
+.name {
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
