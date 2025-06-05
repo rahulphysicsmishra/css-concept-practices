@@ -25,12 +25,21 @@ Default for	         <div>, <p>, etc.	    Must be set explicitly
 } */
 .profile-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center; /* horizontal center for column layout */
   justify-content: center; /* vertical center if the parent has height */
   height: 100vh; /* optional, if you want full-screen vertical center */
+  border: 2px solid black; /* optional, for visual separation */
 }
-
+.profile-details {
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+}
+.profile-info {
+  margin-left: 20px;
+  border: 2px solid brown;
+}
 .name {
   margin-top: 10px;
   margin-bottom: -5px;
