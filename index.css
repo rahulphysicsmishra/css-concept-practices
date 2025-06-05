@@ -34,13 +34,20 @@ Default for	         <div>, <p>, etc.	    Must be set explicitly
 .profile-details {
   border: 2px solid blue;
   display: flex;
+  padding: 10px;
   align-items: center;
+  background-color: lightblue;
+  border-bottom: 2px solid rgb(196, 248, 6);
 }
 .profile-info {
-  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
   border: 2px solid brown;
 }
 .name {
   margin-top: 10px;
   margin-bottom: -5px;
+
 }
