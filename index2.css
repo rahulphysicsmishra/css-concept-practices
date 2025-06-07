@@ -25,3 +25,11 @@ body {
     padding: 10px;
     cursor: pointer;
 }
+
+.cta {
+    border-bottom: 4px solid red;
+}
+
+#main-logo {
+    width: 200px;
+}
