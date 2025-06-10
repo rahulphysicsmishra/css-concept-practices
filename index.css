@@ -15,8 +15,10 @@ Default for	         <div>, <p>, etc.	    Must be set explicitly
 
 
 .profile-pic {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 10px;
 }
 
 /* .profile-container {
@@ -28,16 +30,18 @@ Default for	         <div>, <p>, etc.	    Must be set explicitly
   flex-direction: row;
   align-items: center; /* horizontal center for column layout */
   justify-content: center; /* vertical center if the parent has height */
-  height: 100vh; /* optional, if you want full-screen vertical center */
   border: 2px solid black; /* optional, for visual separation */
+  padding: 10px;
 }
 .profile-details {
   border: 2px solid blue;
   display: flex;
+  flex-direction: column;
   padding: 10px;
   align-items: center;
   background-color: lightblue;
   border-bottom: 2px solid rgb(196, 248, 6);
+  margin: 10px;
 }
 .profile-info {
   display: flex;
@@ -50,4 +54,7 @@ Default for	         <div>, <p>, etc.	    Must be set explicitly
   margin-top: 10px;
   margin-bottom: -5px;
 
+}
+#button {
+  margin: 3px;
 }
