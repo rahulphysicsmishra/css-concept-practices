@@ -19,3 +19,20 @@
 #btn:hover {
     background-color: rgb(8, 9, 114);    
 }
+
+.gift-img {
+    width: 400px;
+    height: 300px;
+    background-image: url("https://imgs.search.brave.com/ADprMCR2fs4NlmrHnoK-fN2elng9C8onmcf81gpKc1w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y3JlYXRlLnZpc3Rh/LmNvbS9hcGkvbWVk/aWEvc21hbGwvNjI5/NzA5OTEvc3RvY2st/cGhvdG8tYmlydGhk/YXktZ2lmdC1ib3g");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 120px;
+}
+
+#gft-card:hover {
+    background-image: url("https://imgs.search.brave.com/6rcEeXECOb7gAnl5_uJgmuM17T8clNyLQu8YTNtbRQQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTA5/MTM1MjQ2L3Bob3Rv/L2NoZWVyZnVsLXlv/dW5nLXdvbWFuLXJl/Y2VpdmluZy1hLWdp/ZnQtZnJvbS1oZXIt/Ym95ZnJpZW5kLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1M/RExJUU9icVNjaXVZ/Y1MtM0dhRzVaRzB4/VVBUVmUwYjEzZndY/OE5RX0prPQ");
+}
+#gft-card2:hover {
+    background-image: url("https://imgs.search.brave.com/9S5dTLvaIiGyW_eTVxs1AYBvVEojz-1cNzsb_H0jz2U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMw/NzU5Njg5NC9waG90/by9tb3RoZXItYW5k/LWRhdWdodGVyLXVu/cGFja2luZy1hLWdp/ZnQtdG9nZXRoZXIu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PUhsVmxYQnVEOHBi/UkFXN0FUMWpLS2Na/MmpEMlFxekpmN1JM/b1gyeXlmRE09");
+}
