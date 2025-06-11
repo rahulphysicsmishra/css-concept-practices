@@ -26,6 +26,9 @@ const styles = {
     },
   }),
   gridContainer: (theme) => ({
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
     alignItems: "flex-start",
     border: "2px dashed blue",
     [theme.breakpoints.down("md")]: {
@@ -67,8 +70,15 @@ const styles = {
   }),
   mentalSpaceGrid: (theme) => ({
     display: "flex",
-    gap: "16px",
+    flexDirection: "row",
+    justifyContent: "center",   // ✅ center items horizontally
+    alignItems: "center",    
+    gap: "2px",
     flexWrap: "wrap",
+    [theme.breakpoints.down("sm")]: {
+    flexDirection: "column",  // ✅ stack vertically on small screens if needed
+    alignItems: "center",
+  },
   }),
   postButton: {
     marginTop: "12px",
@@ -99,7 +109,7 @@ function App() {
 
   return (
     <Container sx={styles.container}>
-      <Grid container spacing={3} sx={styles.gridContainer}>
+      <Grid container spacing={30} sx={styles.gridContainer}>
         {/* Left Section */}
         <Grid>
           <Paper sx={styles.paper}>
