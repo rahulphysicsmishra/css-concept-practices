@@ -1,0 +1,21 @@
+.buttons {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#btn {
+    background-color: rgb(168, 118, 118);
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(8, 9, 114);    
+}
