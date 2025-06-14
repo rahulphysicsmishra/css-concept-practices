@@ -1,0 +1,51 @@
+.dribble-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dribble-title {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #121212;
+}
+
+.stadium {
+    width: 380px;
+    height: 250px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #383030;
+}
+
+.dribble-info {
+    margin: 20px 85px;
+    font-style: italic;
+}
+
+.email-input {
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #1d1b1b;
+    border-width: 3px;
+    padding: 5px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.dribble-button {
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #1d1b1b;
+    background-color: #383030;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+#terms {
+    font-style: italic;
+}
