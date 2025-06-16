@@ -1,0 +1,20 @@
+
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.signup {
+    background-color: #96ceb4;	
+}
+
+.login {
+    background-color: #ff6f69;
+}
+
+.register {
+    background-color: #88d8b0;
+
+}

@@ -1,0 +1,18 @@
+html, body {
+  background-color: #ffeead;
+  margin: 10px;
+}
+
+.container {
+    display: flex;
+    border: 5px solid #ffcc5c;
+
+}
+
+.container > div {
+    flex: 1
+}
+
+
+
+
