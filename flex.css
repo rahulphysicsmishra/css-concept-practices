@@ -1,18 +1,18 @@
-html, body {
-  background-color: #ffeead;
-  margin: 10px;
-}
 
 .container {
     display: flex;
     border: 5px solid #ffcc5c;
-
+    height: 100%;
+    align-items:flex-start;
 }
 
-.container > div {
-    flex: 1
+.login {
+    align-self: flex-end;
 }
 
+.register {
+    align-self: center;
+}
 
 
 

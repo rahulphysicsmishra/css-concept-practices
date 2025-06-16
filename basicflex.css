@@ -1,4 +1,11 @@
 
+html, body {
+  background-color: #ffeead;
+  margin: 10px;
+  height: 100%;
+  border: 5px solid #423f39;
+}
+
 .container > div {
   padding: 10px;
   text-align: center;
