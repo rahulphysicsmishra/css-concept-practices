@@ -2,17 +2,19 @@
 .container {
     display: flex;
     border: 5px solid #ffcc5c;
+    flex-direction: column;
     height: 100%;
-    align-items:flex-start;
+    justify-content: end;
 }
 
-.login {
-    align-self: flex-end;
+.signup {
+    align-self: flex-start;
 }
 
 .register {
-    align-self: center;
+    align-self: end;
 }
 
-
-
+.login {
+    align-self: center;
+}
