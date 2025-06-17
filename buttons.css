@@ -42,3 +42,10 @@ html, body {
     padding: 5px 5px;
     flex: 1 1 auto;
 }
+
+@media all and (max-width: 800px) {
+    .buttons {
+        flex-wrap: wrap;
+    }
+    
+}
