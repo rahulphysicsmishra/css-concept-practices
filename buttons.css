@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid #ffcc5c;
+    gap: 0px;
+}
+
+.signup {
+    background-color: #ffcc5c;
+    border: 2px solid #7a6c4d;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    flex: 1 1 auto;
+}
+
+.login {
+    background-color: #5c82ff;
+    border: 2px solid #7e7259;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    flex: 1 1 auto;
+}
+
+.register {
+    background-color: #ff5cf7;
+    border: 2px solid #5e5950;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    flex: 1 1 auto;
+}
