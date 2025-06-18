@@ -1,0 +1,33 @@
+.grid > div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+
+html, body {
+    background-color: #ffeead;
+}
+
+
+.grid > div:nth-child(1n) {
+  background-color: #96ceb4;	
+}
+
+.grid > div:nth-child(2n) {
+      background-color: #ff6f69;
+}
+
+
+.grid > div:nth-child(3n) {
+  background-color: #88d8b0;
+}
+
+.grid > div:nth-child(4n) {
+      background-color: #ffcc5c;
+}
+
+.grid> div:nth-child(5n) {
+  background-color: #09085f;
+}
