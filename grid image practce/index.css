@@ -2,6 +2,13 @@
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    /* grid-template-rows: repeat(auto-fit, minmax(100px, 1fr)); */
+    grid-auto-rows: 100px;
+    /* grid-template-rows: 100px 100px; */
+    grid-auto-flow: dense;;
 
+}
+
+.vertical {
+    grid-row: auto / span 2;
 }
