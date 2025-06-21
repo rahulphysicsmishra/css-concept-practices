@@ -6,6 +6,7 @@
 }
 
 html, body {
+    --beige: #501a4b;
     background: var(--beige);
     color: var(--red);
 }
@@ -15,6 +16,7 @@ html, body {
 }
 
 .item {
+    --red: #ff8e69;
     background-color: var(--yellow);
 }
 
