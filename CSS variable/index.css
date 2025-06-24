@@ -37,3 +37,9 @@ button {
     --red: #ff0022;
     --yellow: #f1ee16;
 }
+
+@media all and (max-width: 450px) {
+    button {
+        --red: #000000;
+    }
+}
