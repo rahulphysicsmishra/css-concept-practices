@@ -1,0 +1,30 @@
+.main {
+    text-align: center;
+}
+body > h1 {
+    color: #2E7AD3;
+}
+
+.container > h2 {
+    color: #104C90;
+}
+
+
+.container > .img-container > img {
+    width: 400px;
+    height: 250px;
+}
+
+
+.img-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #F1F1F1;
+    width: 450px;
+    margin: 0 auto;
+
+}
