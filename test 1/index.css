@@ -1,12 +1,17 @@
 .main {
     text-align: center;
+    margin: 45px auto;
 }
-body > h1 {
+.main > h1 {
     color: #2E7AD3;
+    margin: 45px auto;
 }
+
 
 .container > h2 {
     color: #104C90;
+    margin-bottom: 0px;
+    padding-top: 10px;
 }
 
 
@@ -20,6 +25,7 @@ body > h1 {
     display: block;
     justify-content: center;
     align-items: center;
+    padding: 25px;
 }
 
 .container {
@@ -27,4 +33,16 @@ body > h1 {
     width: 450px;
     margin: 0 auto;
 
+}
+
+a{
+    color: #ff8000;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff2000;
+}
+a:visited {
+    color: #800000;
 }
