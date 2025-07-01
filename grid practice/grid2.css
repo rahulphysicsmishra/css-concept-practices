@@ -6,10 +6,15 @@
 }
 
 .header {
-    grid-column-start: 2;
-    grid-column-end: -1;
+    grid-column-start: 1;
+    grid-column-end: -2;
 }
 
 .middle {
-    grid-row: 1 / -2;
+    grid-row: 2;
+}
+
+.three {
+    grid-row: 1 / 4;
+    grid-column: 4;
 }
